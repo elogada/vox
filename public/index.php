@@ -71,6 +71,10 @@ if ($payload === false) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Vox Visibility Frontend</title>
+  <meta name="theme-color" content="#0b1d31">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+  <link rel="apple-touch-icon" href="icons/icon.svg">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <style>
     body { background: radial-gradient(ellipse at 15% 0%, #122d4c 0%, #091525 45%, #070e1c 100%); }
@@ -155,6 +159,10 @@ if ($payload === false) {
     }
     modal.addEventListener('click', closeModal);
     document.addEventListener('keydown', event => { if (event.key === 'Escape') closeModal(); });
+
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => navigator.serviceWorker.register('sw.js'));
+    }
   </script>
 </body>
 </html>
