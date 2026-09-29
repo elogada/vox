@@ -1,0 +1,19 @@
+{
+  "name": "Vox Visibility Frontend",
+  "short_name": "Vox",
+  "description": "A lightweight, read-only OSSEC alert viewer.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#070e1c",
+  "theme_color": "#0b1d31",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1290" height="895" viewBox="0 0 1290 895" role="img" aria-labelledby="title description">
+  <title id="title">Vox alert viewer preview</title>
+  <desc id="description">Desktop view of the Vox OSSEC alert viewer showing a responsive grid of recent alert cards.</desc>
+  <defs>
+    <radialGradient id="background" cx="15%" cy="0%" r="85%"><stop stop-color="#122d4c"/><stop offset=".55" stop-color="#091525"/><stop offset="1" stop-color="#070e1c"/></radialGradient>
+    <style>
+      .label{font:700 12px system-ui,sans-serif;letter-spacing:4px;fill:#67e8f9}.heading{font:700 48px system-ui,sans-serif;fill:#fff}.sub{font:14px system-ui,sans-serif;fill:#94a3b8}.card{fill:#0f1b2e;stroke:#21405a}.name{font:600 14px system-ui,sans-serif;fill:#f8fafc}.meta{font:11px system-ui,sans-serif;fill:#94a3b8}.badge{fill:#073d59;stroke:#0878a2}.badge7{fill:#392f0e;stroke:#806514}.level{font:700 11px system-ui,sans-serif;fill:#bae6fd}.level7{font:700 11px system-ui,sans-serif;fill:#fde68a}
+    </style>
+  </defs>
+  <rect width="1290" height="895" fill="url(#background)"/>
+  <circle cx="38" cy="38" r="5" fill="#22d3ee"/><text x="55" y="43" class="label">OSSEC ALERT VIEWER</text>
+  <text x="34" y="101" class="heading">Vox <tspan fill="#7dd3fc">Visibility</tspan> Frontend</text>
+  <text x="34" y="133" class="sub">Latest alerts captured when this page loaded. Refresh to read the file again.</text>
+  <rect x="34" y="162" width="184" height="41" rx="12" fill="#0c4567" stroke="#367c9e"/><text x="51" y="188" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#e0f2fe">↓  Download alerts.json</text>
+  <text x="235" y="188" class="meta">24 shown · newest first · max 50</text><path d="M34 235h1216" stroke="#21405a"/>
+  <g id="standard-card"><rect width="295" height="111" rx="13" class="card"/><rect x="13" y="43" width="29" height="26" rx="8" class="badge"/><text x="20" y="60" class="level">L3</text><text x="55" y="51" class="name">Windows Logon Success.</text><text x="55" y="75" class="meta">◷  2026 Sep 29 15:34...   ▣  Server25</text></g>
+  <use href="#standard-card" x="34" y="272"/><use href="#standard-card" x="341" y="272"/><use href="#standard-card" x="648" y="272"/><use href="#standard-card" x="955" y="272"/>
+  <use href="#standard-card" x="34" y="396"/><use href="#standard-card" x="341" y="396"/><use href="#standard-card" x="648" y="396"/><use href="#standard-card" x="955" y="396"/>
+  <use href="#standard-card" x="34" y="520"/><use href="#standard-card" x="341" y="520"/><use href="#standard-card" x="648" y="520"/><use href="#standard-card" x="955" y="520"/>
+  <g id="alert-card"><rect width="295" height="111" rx="13" class="card"/><rect x="13" y="43" width="29" height="26" rx="8" class="badge7"/><text x="20" y="60" class="level7">L7</text><text x="55" y="51" class="name">Integrity checksum changed.</text><text x="55" y="75" class="meta">◷  2026 Sep 29 14:44...   ▣  manager</text></g>
+  <use href="#alert-card" x="34" y="644"/><use href="#alert-card" x="341" y="644"/><use href="#alert-card" x="648" y="644"/><use href="#alert-card" x="955" y="644"/>
+  <use href="#standard-card" x="34" y="768"/><use href="#alert-card" x="341" y="768"/><use href="#alert-card" x="648" y="768"/><use href="#alert-card" x="955" y="768"/>
+</svg>
