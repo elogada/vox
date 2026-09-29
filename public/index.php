@@ -73,8 +73,8 @@ if ($payload === false) {
   <title>Vox Visibility Frontend</title>
   <meta name="theme-color" content="#0b1d31">
   <link rel="manifest" href="manifest.json">
-  <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
-  <link rel="apple-touch-icon" href="icons/icon.svg">
+  <link rel="icon" type="image/svg+xml" href="icon.svg">
+  <link rel="apple-touch-icon" href="icon.svg">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <style>
     body { background: radial-gradient(ellipse at 15% 0%, #122d4c 0%, #091525 45%, #070e1c 100%); }

@@ -30,7 +30,7 @@ alert path is currently fixed at `/var/ossec/logs/alerts/alerts.json`.
 2. Clone this repository **to `/opt/vox`**:
 
    ```sh
-   sudo git clone <repository-url> /opt/vox
+   sudo git clone https://github.com/elogada/vox /opt/vox
    ```
 
    The Apache document root is `/opt/vox/public`, so repository metadata and
