@@ -70,6 +70,7 @@ if ($payload === false) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none';">
   <title>Vox Visibility Frontend</title>
   <meta name="theme-color" content="#0b1d31">
   <link rel="manifest" href="manifest.json">
