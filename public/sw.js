@@ -1,7 +1,7 @@
-const CACHE_NAME = 'vox-static-v2';
+const CACHE_NAME = 'vox-static-v3';
 const STATIC_ASSETS = [
   './manifest.json',
-  './icons/icon.svg',
+  './icon.svg',
 ];
 
 self.addEventListener('install', event => {
